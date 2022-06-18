@@ -65,8 +65,12 @@ p {
 
 .flex-container-main-portifolio {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+}
+
+.flex-item-main-portifolio {
+    margin: 5%;
 }
 
 .titulos-portifolio {
@@ -131,12 +135,12 @@ p {
     background-color: #201186;
     color: aliceblue;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 
 .flex-item-rodape, a:link, a:visited, a:hover, a:active  {
-    text-decoration: none;
+    margin: 12%;
     color: aliceblue;
     font-size: 1em;
     font-weight: 500;
