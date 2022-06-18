@@ -16,53 +16,80 @@
   <div>
     <header class="header-nav">
       <nav>
-        <ul class="flex-container">
-          <li class="flex-item"><img id="logo" src="assets/logo.png" alt="imagem png de um estudante." /></li>
-          <li class="flex-item-nome">Filipe Fonseca da Silva</li>
-          <li class="flex-item">Portifólio</li>
-          <li class="flex-item">Sobre Mim</li>
-          <li class="flex-item">Contato</li>
+        <ul class="flex-container-navbar">
+          <li class="flex-item-navbar"><img id="logo" src="assets/logo.png" alt="imagem png de um estudante." /></li>
+          <li class="flex-item-navbar-nome">Filipe Fonseca da Silva</li>
+          <li class="flex-item-navbar">Portifólio</li>
+          <li class="flex-item-navbar">Sobre Mim</li>
+          <li class="flex-item-navbar">Contato</li>
         </ul>
       </nav>
     </header>
   </div>
   <!-- Fim da barra de navegação. -->
-  
 
   <!-- Início do conteúdo ou imagem entre a barra de navegação e o conteúdo principal. -->
-  <h1>Conteúdo ou Imagem Entre a Barra de Navegação e o Conteúdo Principal.</h1>
+  <div>
+    <img id="imagem-navbar-main" src="assets/tech.jpg"
+      alt="imagem de um laptop sobre uma mesa e ao lado alguns livros." />
+  </div>
   <!-- Fim do conteúdo ou imagem entre a barra de navegação e o conteúdo principal. -->
-  <hr>
 
   <!-- Início do conteúdo principal. -->
   <main>
-
     <!-- Início da section portifólio. -->
-    <section>
-      <div>
-        <header>Portifólio</header>
-        <img />
-        <p>Breve descrição do projeto</p>
-        <footer></footer>
-      </div>
+    <div class="imagem-fundo-portifolio">
+      <header class="titulos-sections">
+        <h1>Portifólio</h1>
+      </header>
+      <section class="flex-container-main-portifolio">
+        <div>
+          <header class="titulos-portifolio">
+            <h2>DSMovies</h2>
+          </header>
+          <span>
+            <img id="imagem-portifolio" src="assets/teste.jpg" />
+            <p class="descricao-portifolio">Breve descrição do projeto</p>
+          </span>
+          <footer class="link-portifolio">
+            <a href="https://github.com/Filipe-Fonseca-Silva/dsmovie" target="_blank">Github</a>
+          </footer>
+        </div>
 
-      <div>
-        <header>Portifólio</header>
-        <img />
-        <p>Breve descrição do projeto</p>
-        <footer></footer>
-      </div>
+        <div>
+          <header class="titulos-portifolio">
+            <h2>Título</h2>
+          </header>
+          <span>
+            <img id="imagem-portifolio" src="assets/teste.jpg" />
+            <p class="descricao-portifolio">Breve descrição do projeto</p>
+          </span>
+          <footer class="link-portifolio">
+            <a href="#" target="_blank">Github</a>
+          </footer>
+        </div>
 
-      <div>
-        <header>Portifólio</header>
-        <img />
-        <p>Breve descrição do projeto</p>
-        <footer></footer>
-      </div>
-    </section>
+        <div>
+          <header class="titulos-portifolio">
+            <h2>Título</h2>
+          </header>
+          <span>
+            <img id="imagem-portifolio" src="assets/teste.jpg" />
+            <p class="descricao-portifolio">Breve descrição do projeto</p>
+          </span>
+          <footer class="link-portifolio">
+            <a href="#" target="_blank">Github</a>
+          </footer>
+        </div>
+      </section>
+    </div>
+
     <!-- Fim da section portifólio. -->
 
     <!-- Início da section sobre mim. -->
+    <header class="titulos-sections">
+      <h1>Sobre Mim</h1>
+    </header>
     <section>
       <div>
         <h2>Sobre Mim</h2>
@@ -71,19 +98,26 @@
     <!-- Fim da section sobre mim. -->
 
     <!-- Início da section contato. -->
+    <header class="titulos-sections">
+      <h1>Contato</h1>
+    </header>
     <section>
       <div>
         <h2>Contato</h2>
       </div>
     </section>
     <!-- Fim da section contato. -->
-
   </main>
   <!-- Fim do conteúdo principal. -->
   <hr>
 
   <!-- Início do rodapé. -->
   <h3>Rodapé.</h3>
+  <p>Photo by</p><a
+    href="https://unsplash.com/@emilep?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Emile
+    Perron</a> on <a
+    href="https://unsplash.com/s/photos/technologies?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
   <!-- Fim do rodapé. -->
   <hr>
 
