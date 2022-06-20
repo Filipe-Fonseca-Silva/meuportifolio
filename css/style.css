@@ -5,6 +5,10 @@
     text-decoration: none;
 }
 
+body {
+    background-color: aliceblue;
+}
+
 p {
     text-align: justify;
     margin-right: 1%;
@@ -70,15 +74,14 @@ p {
 }
 
 .flex-item-main-portifolio {
-    margin: 5%;
+    margin: 2% 5% 2% 5%;
     color: aliceblue;
     background-color: #162a3a;
     border-radius: 5%;
 }
 
 .titulos-portifolio {
-    margin-top: 5%;
-    margin-bottom: 5%;
+    padding: 5%;
     text-align: center;
     color: aliceblue;
 }
@@ -110,7 +113,7 @@ p {
 }
 
 .descricao-perfil-profissional {
-    margin: 10%;
+    margin: 5% 10% 5% 10%;
     padding: 2%;
     text-align: center;
     color: aliceblue;
@@ -122,7 +125,7 @@ p {
 }
 
 .descricao-perfil-comportamental {
-    margin: 10%;
+    margin: 5% 10% 5% 10%;
     padding: 2%;
     text-align: center;
     color: aliceblue;
@@ -134,7 +137,7 @@ p {
 }
 
 .descricao-perfil-pessoal {
-    margin: 10%;
+    margin: 5% 10% 5% 10%;
     padding: 2%;
     text-align: center;
     color: aliceblue;
@@ -143,6 +146,20 @@ p {
 
 .rodape-descricao-perfil-pessoal {
     text-align: center;
+}
+
+.flext-container-contato {
+    margin: 5% 10% 15% 10%;
+    padding: 2%;
+    text-align: center;
+    color: aliceblue;
+    background-color: #162a3a;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flex-item-contato {
+    
 }
 
 .flex-container-rodape {
@@ -155,11 +172,7 @@ p {
     align-items: center;
 }
 
-.flex-item-rodape,
-a:link,
-a:visited,
-a:hover,
-a:active {
+.flex-item-rodape, a:link, a:visited, a:hover, a:active {
     color: aliceblue;
     font-size: 1em;
     font-weight: 500;
